@@ -1,7 +1,7 @@
 package com.xjy.util;
 
 public class DataUtil {
-	//ÅÐ¶Ï×Ö·û´®ÊÇ·ñÊÇÊý×Ö
+	//judge if this string is a number
 	public static boolean isNumber(String str){
 		for(int i = str.length(); --i>=0;){
 			if(Character.isDigit(str.charAt(i))){
